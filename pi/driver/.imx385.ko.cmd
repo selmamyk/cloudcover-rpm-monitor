@@ -1,0 +1,1 @@
+savedcmd_/home/cloudpi/Cloud-cover/pi/driver/imx385.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/cloudpi/Cloud-cover/pi/driver/imx385.ko /home/cloudpi/Cloud-cover/pi/driver/imx385.o /home/cloudpi/Cloud-cover/pi/driver/imx385.mod.o /home/cloudpi/Cloud-cover/pi/driver/.module-common.o

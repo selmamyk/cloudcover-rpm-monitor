@@ -1,0 +1,1 @@
+savedcmd_/home/cloudpi/Cloud-cover/pi/driver/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/cloudpi/Cloud-cover/pi/driver/Module.symvers -n -T /home/cloudpi/Cloud-cover/pi/driver/modules.order -i Module.symvers -e 

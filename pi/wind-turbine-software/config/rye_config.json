@@ -1,0 +1,63 @@
+{
+    "target": "C:/Users/Selma/OneDrive-NTNU/Dokumenter/Master/code/Wind_turbine_dataset/Resultat/Arbeidsmappe/output_10min.mp4",
+    "id": 1,
+    "fps": 60.0,
+    "real_rpm": 0.0,
+    "Save as": "rye_config",
+    "deadzone_offset_x": 0,
+    "deadzone_offset_y": 0,
+    "ground_angle": 0.7,
+    "pixel_threshold": 10,
+    "quadrant": 1,
+    "target_num_boxes": 15,
+    "target_box_size": 10,
+    "start_from_box": 5,
+    "trim_last_n_boxes": 0,
+    "frame_buffer_size": 5,
+    "color_delta_update_frequency": 2,
+    "contrast_multiplier": 1.0,
+    "threshold_multiplier": 1.0,
+    "detection_warmup_frames": 30,
+    "erosion_dilation_kernel_size": [
+        10,
+        10
+    ],
+    "dilation_iterations": 2,
+    "erosion_iterations": 1,
+    "rpm_buffer_length": 15,
+    "rpm_zero_timeout_seconds": 10.0,
+    "rpm_acceleration_bound": 3.0,
+    "turbine_diameter": 0.0,
+    "stack_boxes_vertically": false,
+    "stack_boxes_horizontally": true,
+    "direct_drive": false,
+    "mode": "bpm",
+    "log_timestamps": true,
+    "log_color_values": false,
+    "log_frame_ticks": false,
+    "crop_points": [
+        [
+            0,
+            1080
+        ],
+        [
+            0,
+            1920
+        ]
+    ],
+    "deadzone_size": [
+        10,
+        10
+    ],
+    "deadzone_shape": "circle",
+    "source_type": "video",
+    "video_device": "/dev/video0",
+    "width": 1920,
+    "height": 1080,
+    "raw_path": "/tmp/wind_turbine_frame.raw",
+    "bayer_pattern": "BGGR",
+    "preview_mode": "processed",
+    "black_level": 64,
+    "resize_boxes": false,
+    "adjust_num_boxes": false
+}

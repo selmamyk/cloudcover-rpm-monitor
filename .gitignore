@@ -1,0 +1,15 @@
+# Ignore data directories
+dataset/
+images_pattern_div/
+recordings/
+runs/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+
+
+

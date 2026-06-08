@@ -1,0 +1,39 @@
+{
+  "mode": "manual",
+  "python_bin": "/usr/bin/python3",
+  "log_path": "../../boot_log/cloud_capture_mode.log",
+  "boot": {
+    "description": "Run auto_capture_cloud.py automatically after boot and keep capturing.",
+    "auto_capture_args": [
+      "--post-config-settle-seconds",
+      "2.0",
+      "--output-dir",
+      "../../dataset/boot",
+      "--label",
+      "boot_auto",
+      "--num-images",
+      "0",
+      "--interval",
+      "300",
+      "--hyta-method",
+      "imx385_adapted"
+    ]
+  },
+  "low_power": {
+    "description": "Run auto_capture_cloud.py once after boot, schedule RTC wake, then halt.",
+    "wake_seconds": 3600,
+    "shutdown": true,
+    "auto_capture_args": [
+      "--post-config-settle-seconds",
+      "2.0",
+      "--output-dir",
+      "../../dataset/low_power",
+      "--label",
+      "low_power_cycle",
+      "--num-images",
+      "1",
+      "--hyta-method",
+      "imx385_adapted"
+    ]
+  }
+}
