@@ -5,7 +5,7 @@ from datetime import datetime
 from pathlib import Path
 
 
-DEFAULT_EPAPER_LIB_PATH = "/home/cloudpi/e-Paper/RaspberryPi_JetsonNano/python/lib"
+DEFAULT_EPAPER_LIB_PATH = "/home/cloudpi/Cloud-cover/pi/e-Paper/RaspberryPi_JetsonNano/python/lib"
 
 
 def update_rpm_status_display(
