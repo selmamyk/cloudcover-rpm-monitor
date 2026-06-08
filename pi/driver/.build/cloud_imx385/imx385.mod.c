@@ -34,10 +34,6 @@ __used __section("__versions") = {
 	{ 0x7c9a7371, "clk_prepare" },
 	{ 0x815588a6, "clk_enable" },
 	{ 0x90f098be, "regulator_bulk_enable" },
-	{ 0x33297427, "v4l2_async_unregister_subdev" },
-	{ 0x263f3602, "v4l2_ctrl_handler_free" },
-	{ 0x2587b615, "__pm_runtime_disable" },
-	{ 0x437d0342, "__pm_runtime_set_status" },
 	{ 0xe2822320, "__v4l2_find_nearest_size" },
 	{ 0x3ac81b38, "__v4l2_ctrl_s_ctrl" },
 	{ 0x316650e2, "__v4l2_ctrl_s_ctrl_int64" },
@@ -62,9 +58,13 @@ __used __section("__versions") = {
 	{ 0xa3732c8f, "media_entity_pads_init" },
 	{ 0x247cff22, "__v4l2_subdev_init_finalize" },
 	{ 0x8444a114, "__v4l2_async_register_subdev" },
+	{ 0x437d0342, "__pm_runtime_set_status" },
 	{ 0x4dcc3608, "pm_runtime_enable" },
 	{ 0xfda399a4, "__pm_runtime_idle" },
 	{ 0xce5bb82a, "v4l2_fwnode_endpoint_free" },
+	{ 0x263f3602, "v4l2_ctrl_handler_free" },
+	{ 0x33297427, "v4l2_async_unregister_subdev" },
+	{ 0x2587b615, "__pm_runtime_disable" },
 	{ 0x5d975c3c, "__pm_runtime_resume" },
 	{ 0xa65c6def, "alt_cb_patch_nops" },
 	{ 0xf9a482f9, "msleep" },
@@ -75,9 +75,9 @@ __used __section("__versions") = {
 	{ 0x474e54d2, "module_layout" },
 };
 
-MODULE_INFO(depends, "videodev,v4l2-async,regmap-i2c,v4l2-fwnode,mc");
+MODULE_INFO(depends, "videodev,regmap-i2c,v4l2-fwnode,mc,v4l2-async");
 
 MODULE_ALIAS("of:N*T*Csony,imx385");
 MODULE_ALIAS("of:N*T*Csony,imx385C*");
 
-MODULE_INFO(srcversion, "E0C4B8862FC77412D6B00F1");
+MODULE_INFO(srcversion, "5FE4097C31D6E3034FEDED4");
